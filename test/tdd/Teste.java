@@ -50,3 +50,9 @@ public class Teste {
 	}
 
 }
+        @Test
+        publiv void SomaProduto(){
+                Produto p = new Produto ("DVD", 100, (float) 30);
+                loja.addProduto(p);
+                assertTrue(loja.Soma("DVD"));
+}
